@@ -1,4 +1,3 @@
 
-name=Nuage - Raspberry Pi emulates Yún
+name=Beaglebone Black (BBB) a la Yún
 version=1.6.1
-
