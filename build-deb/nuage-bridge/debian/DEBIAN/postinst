@@ -12,6 +12,8 @@ if [ -x /etc/nuage/serial.cfg ] ; then
 	. /etc/nuage/serial.cfg
 elif grep sun7i /proc/cpuinfo ; then
 	SERIALDEV=ttyS2
+elif grep AM33XX /proc/cpuinfo ; then
+	SERIALDEV=tty01
 else
 	SERIALDEV=ttyAMA0
 fi

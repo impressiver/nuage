@@ -43,7 +43,8 @@ import sys
 import os
 import socket
 import ConfigParser
-import RPi.GPIO as GPIO
+import Adafruit_BBIO.GPIO as GPIO
+
 from flask import Flask, request, redirect, url_for, send_from_directory
 sys.path.insert(0, '/usr/lib/python2.7/bridge/')
 from bridgeclient import BridgeClient as bridgeclient
